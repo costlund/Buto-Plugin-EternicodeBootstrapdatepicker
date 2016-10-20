@@ -1,9 +1,10 @@
 <?php
 /**
 <p>
-http://www.eyecon.ro/bootstrap-datepicker/
+ Datepicker.
 </p>
 <p>
+http://www.eyecon.ro/bootstrap-datepicker/
 </p>
  */
 class PluginEternicodeBootstrapdatepicker{
@@ -28,8 +29,6 @@ class PluginEternicodeBootstrapdatepicker{
     $element = array();
     $element[] = wfDocument::createHtmlElement('link', null, array('href' => '/plugin/eternicode/bootstrapdatepicker/css/bootstrap-datepicker.min.css', 'rel' => 'stylesheet'));
     $element[] = wfDocument::createHtmlElement('script', null, array('src' => '/plugin/eternicode/bootstrapdatepicker/js/bootstrap-datepicker.min.js', 'type' => 'text/javascript'));
-    //$element[] = wfDocument::createHtmlElement('link', null, array('href' => '/plugin/amcharts/amcharts/amexport_combined.js', 'type' => 'text/javascript'));
-    //$element[] = wfDocument::createHtmlElement('script', null, array('src' => '/plugin/amcharts/amcharts/serial.js', 'type' => 'text/javascript'));
     wfDocument::renderElement($element);
   }
 }
