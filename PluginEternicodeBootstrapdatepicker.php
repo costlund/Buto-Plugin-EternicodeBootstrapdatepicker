@@ -24,6 +24,7 @@ class PluginEternicodeBootstrapdatepicker{
         todayHighlight: true
       });
   #code#
+  <p>If using PluginWfForm and field type date the form will try to add this calender to the control. Make sure the include widget is included in your theme.</p>
   */
   public static function widget_include(){
     $element = array();
